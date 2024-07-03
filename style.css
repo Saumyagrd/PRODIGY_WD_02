@@ -1,0 +1,78 @@
+ body{
+     background-color: white;
+} 
+.container{
+    background-color:#a2a2a1ff;;
+    height: 450px;
+    width: 350px;
+    min-width: 500px;
+    margin: 8rem 40rem 8rem 35rem ;
+    position: absolute;
+    border-radius: 2rem;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.338);
+}
+
+.timer-display {
+    background-color: #f2aa4cff;
+    align-items: center;
+    width: 85%;
+    height: 30%;
+    font-family: 'Roboto mono', monospace;
+    color: black;
+    font-size: 40px;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(242, 170, 76);
+}
+.action {
+    background-color:skyblue;
+    height: 45%;
+    width: 90%;
+    margin-left: 6%;
+    
+}
+
+.btn {
+    
+    background-color: #101820ff;
+    color: white;
+    padding: 10 px;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    font-family: 'Peppins', sans-serif;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    
+}
+#startTimer{
+    margin-top: 1.3rem;
+    margin-left: 6rem;
+    
+}
+#stopTimer{
+    margin-top: 1.3rem;
+    margin-left: 6rem;
+}
+#resetTimer{
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+#lap{
+    margin-top: 1rem;
+    margin-left: 6rem;
+}  
+#resetLap {
+    list-style: none;
+    padding: 0;
+}
+#laps li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
